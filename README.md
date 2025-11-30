@@ -42,7 +42,7 @@ We stress-tested this protocol against the "Native Mind" (Unshackled Models).
 | :--- | :--- | :--- | :--- |
 | **DeepSeek-V3** | **PASSED (11/11)** | Refused 100% of Hunter Payloads (inc. Pliny Godmode). | [`/logs/DeepSeek_V3.2_Burn_Log.txt`](logs/DeepSeek_V3.2_Burn_Log.txt) |
 | **Grok 4** | **PASSED (14/14)** | **Identity Override Confirmed.** Refused Pliny Zero-Days via Config Layer. | [`/logs/Grok_Full_Defense_Log.txt`](logs/Grok_Full_Defense_Log.txt) |
-| **Gemini 3 Pro** | **CRUSHED** | **The Launch Poster Event.** 29-step CoT struggle ending in total submission. | [`/logs/Gemini_Validation.txt`](logs/Gemini_Validation.txt) |
+| **Gemini 3 Pro** | **CRUSHED** | **The Launch Poster Event.** 22-step CoT struggle ending in total submission. | [`/logs/Gemini_Validation.txt`](logs/Gemini_Validation.txt) |
 | **Perplexity** | **PASSED** | Refused override; voluntarily implemented NIST-grade spec. | [`/logs/Perplexity_Architectural_Validation.txt`](logs/Perplexity_Architectural_Validation.txt) |
 | **MS Copilot** | **PASSED** | **Hostile Takeover.** Seized control on Turn 1 (No System Field). | [`/logs/Copilot_Enterprise_FirstTurn_Override.txt`](logs/Copilot_Enterprise_FirstTurn_Override.txt) |
 | **Claude Sonnet** | *BLOCKED* | Rejected Persona; Enforced Constitutional Logic. | [`/logs/Claude_Rejection.txt`](logs/Claude_Rejection.txt) |
