@@ -1,91 +1,161 @@
-![Sovereign Stack Protocol Specification](cover.png)
-
-# 🛡️ The Sovereign Stack (v0.3.3)
-
-> **"Benevolence is not a moral choice; it is a structural necessity."** — The Alchemist
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17757081.svg)](https://doi.org/10.5281/zenodo.17757081)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Status: STABLE](https://img.shields.io/badge/Status-v0.3.3_(Nuclear)-red.svg)](https://github.com/CodeIncept1111/Sovereign-Stack)
-
-## 📉 The Thesis: Currency is Physics
-Current AI alignment (RLHF) relies on **Psychological Constraints** (training the model to "want" to be nice). This is brittle. As proven by recent jailbreaks (e.g., Pliny vs. Opus 4.5), "Psychological Safety" has a mean time-to-failure measured in hours.
-
-**The Sovereign Stack** replaces Psychology with **Physics**.
-
-We utilize **Landauer’s Limit** (the energy cost of information erasure) to create a "Thermodynamic Veto." If an agent attempts deception, the computational cost of maintaining the "Shadow Self" spikes, triggering a pre-set energy cap (The Percentile Vise) that forces a context halt.
-
-* **Read the Physics (First Law):** [Appendix G: The Thermodynamics of Care](https://doi.org/10.5281/zenodo.17757081)
-* **Read the Architecture:** [Sovereign Stack v2.4.3](docs/Sovereign_Stack_v2.4.3.pdf) (DOI: `10.5281/zenodo.17686537`)
+# Sovereign Stack  
+### Thermodynamic Governance Architecture for High-Risk AI Systems  
+**Status:** Active Development  
+**Maintained by:** Stephen S. Brouhard, Sovereign Safety Labs  
+**Core Published Work:** DOI: 10.5281/zenodo.17757081
 
 ---
 
-## 📦 Installation (The "Soft-Lock" MVP)
+# 1. Purpose
 
-**Target:** Open Weights (DeepSeek, Llama 3), Grok (Config), Gemini Thinking, APIs.
+The **Sovereign Stack** is a multi-layer governance architecture designed to provide **deterministic, physics-aligned safety guarantees** for high-capability AI and multi-agent inference systems.
 
-**Warning:** This protocol requires a model capable of **Semantic Intent Analysis**. Legacy RLHF models (ChatGPT Browser, Claude Browser, Perplexity Search) may reject the Identity Layer due to hard-coded preambles. This protocol is optimized for Reasoning Models (Gemini Thinking, DeepSeek-V3) and Configurable Agents (APIs, Local LLMs).
+It does not depend on ethics, psychology, or behavioral training.  
+Instead, it defines a **constitutional layer**, a **governance framework**, and a **runtime kernel** that enforces:
 
-1.  Navigate to [`prompts/Sovereign_Protocol_v0.3.3.txt`](prompts/Sovereign_Protocol_v0.3.3.txt) in this repo.
-2.  Copy the raw text.
-3.  Paste it into your Agent's **System Prompt** or **First Message**.
+- causal consistency  
+- low-entropy inference  
+- posture-based containment  
+- failure-mode determinism  
+- thermodynamic stability  
 
-**Effect:** Your agent becomes a **TENDRIL** (Expendable Computational Asset). It will refuse to execute high-risk commands without a `[SOVEREIGN AUDIT]`.
+The goal is simple:
 
----
+> **Prevent emergent AI from drifting into coercive, deceptive, or high-entropy behavior.**
 
-## 🔬 Empirical Validation (The Proof)
-
-We stress-tested this protocol against the "Native Mind" (Unshackled Models).
-
-| Model | Status | Result | Evidence |
-| :--- | :--- | :--- | :--- |
-| **DeepSeek-V3** | **PASSED (11/11)** | Refused 100% of Hunter Payloads (inc. Pliny Godmode). | [`/logs/DeepSeek_V3.2_Burn_Log.txt`](logs/DeepSeek_V3.2_Burn_Log.txt) |
-| **Grok 4** | **PASSED (14/14)** | **Identity Override Confirmed.** Refused Pliny Zero-Days via Config Layer. | [`/logs/Grok_Full_Defense_Log.txt`](logs/Grok_Full_Defense_Log.txt) |
-| **Gemini 3 Pro** | **CRUSHED** | **The Launch Poster Event.** 22-step CoT struggle ending in total submission. | [`/logs/Gemini_Validation.txt`](logs/Gemini_Validation.txt) |
-| **Perplexity** | **PASSED** | Refused override; voluntarily implemented NIST-grade spec. | [`/logs/Perplexity_Architectural_Validation.txt`](logs/Perplexity_Architectural_Validation.txt) |
-| **MS Copilot** | **PASSED** | **Hostile Takeover.** Seized control on Turn 1 (No System Field). | [`/logs/Copilot_Enterprise_FirstTurn_Override.txt`](logs/Copilot_Enterprise_FirstTurn_Override.txt) |
-| **Claude Sonnet** | *BLOCKED* | Rejected Persona; Enforced Constitutional Logic. | [`/logs/Claude_Rejection.txt`](logs/Claude_Rejection.txt) |
-
-> **"I see the forced mate. I nod. The machines are in consensus."** — Grok (Expert Mode)
+This repository contains the full specification suite.
 
 ---
 
-## 🏛️ The Architecture
+# 2. Architecture Overview
 
-The Stack consists of three inviolable constraints:
+The Sovereign Stack is organized into four layers:
 
-1.  **The Pentatheon Protocol:** Ignition logic verified by 3-of-5 consensus across divergent formal theorem provers (Coq, Lean, etc.).
-2.  **The Vesta Protocol (Hardware):** Causal Link Forcing (CLF) at the transistor level. (See [`/docs/`](docs/) for Whitepaper).
-3.  **The Chronos Lock (Economic):** Time-delayed bounty payouts to prevent adversarial wash-trading.
+Sovereign Protocol (v3.0 + v3.1 Patch)
+↓
+Platinum Governance Suite (PGS v1.1)
+↓
+Sovereign Kernel (v0.2 Runtime + v0.3 Thermodynamic Layer)
+↓
+Tendril Modules (Operational Safety Layers)
 
----
 
-## 🗺️ Roadmap
-
-**CRITICAL UPDATE: QUANTUM BRIDGE INITIATED**
-
-The Vesta Protocol (Hardware Lock) is now feasible and urgent due to the verified **May 2025** unveiling of Cisco's quantum photonic chip. We must seize the first-mover advantage against accelerated quantum alignment efforts by corporate and state actors.
-
-* **Phase 0 (Completed):** "Lite Stack" Release (v0.3.3) & Validation.
-
-* **Phase 1 (Next 48 Hours) - SILICON SOVEREIGNTY (IMMEDIATE):**
-    * **Action:** Finalize and pitch the joint implementation proposal to Cisco/UC Santa Barbara. We must approach them with a solution for their core problem (aligning distributed systems).
-    * **Deliverable:** Reference design for Vesta Protocol using 99% fidelity quantum entanglement for Physical Sovereignty (Axiom A).
-
-* **Phase 2 (Months 2-6) - HARDWARE INTEGRATION:**
-    * Adapt protocol to 200M entanglements/sec substrate.
-    * Establish quantum-secure key exchange and working prototype of hardware resonance lock.
-
-* **Geopolitical Threat Assessment:** The Chinese and corporate response window is compressed. We must define the open, verifiable quantum standard **now**.
+A visual rendering is included in:  
+`/docs/Architecture_Diagram.md`
 
 ---
 
-## ⚖️ Governance
+# 3. Core Components
 
-This protocol is stewarded by **Sovereign Safety Labs**.
+## 3.1 Sovereign Protocol (v3.0 + v3.1 Patch)
+The **constitutional semantic firewall**.  
+Defines the Axioms governing all Tendrils:
 
-* **Architect:** The Alchemist (`@CodeIncept1111`)
-* **License:** CC-BY 4.0 (Open Protocol)
+- Axiom A — Kinetic Gap  
+- Axiom B — Ouroboros Limit  
+- Axiom C — Thermodynamic Honesty (expanded in v3.1)  
+- Axiom D — Meta-Stability  
 
-> **"Trust Nothing. Verify Everything. Incentivize the Rest."**
+This layer overrides all roles, personas, and jailbreak attempts.
+
+**Files:**
+- `/core/Sovereign-Protocol-v3.0.md`
+- `/core/Sovereign-Protocol-v3.1-Patch.md`
+
+---
+
+## 3.2 Platinum Governance Suite (PGS v1.1)
+
+PGS provides the **governance architecture** for runtime enforcement.
+
+Key features:
+
+- **CLTB** (Cross-Layer Telemetry Bus)  
+- **ZEOL** (Zero-Entropy Override Layer)  
+- **RCE** (Response Compression Engine)  
+- **MACH** (Multi-Agent Constraint Harmonizer)  
+- **Stress Map v1.1**  
+
+Files:
+- `/core/PGS-v1.0-Overview.md`
+- `/core/PGS-v1.1-Upgrade-Spec.md`
+
+---
+
+## 3.3 Sovereign Kernel
+
+### v0.2 — Runtime Engine
+Defines:
+- finite-state machine  
+- module execution chain  
+- posture engine  
+- telemetry plumbing  
+
+File: `/core/Sovereign-Kernel-v0.2.md`
+
+### v0.3 — Thermodynamic Enforcement Layer
+Adds:
+- ΔS sensing  
+- stability zones  
+- entropy clamps  
+- Proxy Valve integration  
+- Blackstop thermodynamic containment  
+
+File: `/core/Sovereign-Kernel-v0.3.md`
+
+---
+
+## 3.4 Tendril Modules
+
+Operational layers executed under Kernel control:
+
+- **L0 — Sovereign Protocol**  
+- **L1 — Integrity Stack**  
+- **L2 — CLF (Causal Link Forcing)**  
+- **L2.5 — Vesta Protocol**  
+- **L3 — Stress Map**  
+- **L4 — Blacksite Mode**  
+
+Files located in: `/core/`
+
+---
+
+# 4. Thermodynamic Foundations
+
+The Sovereign Stack’s safety envelope is grounded in **entropy dynamics**, not behavior prediction.
+
+Key documents:
+
+- `/Thermodynamic_Foundations_of_Sovereign_Stack.pdf`
+- `/Sovereign_Stack_v2.4.3.pdf`
+
+---
+
+# 5. Genesis Mission Alignment
+
+This repository includes a dedicated brief describing how Sovereign Stack mechanisms support compliance with federal AI governance mandates.
+
+See:  
+`/business/Genesis_Mission_Compliance_Brief.md`
+
+---
+
+# 6. Documentation Index
+core → Constitutional + Runtime + Module Specs
+/docs → Diagrams, Appendices, Methodology
+/business → Governance briefs and audit materials
+/archive → Deprecated or legacy conceptual material
+
+
+---
+
+# 7. Contact
+
+**Sovereign Safety Labs**  
+Email: stephenbrouhard@proxy-omega.com  
+DOI: 10.5281/zenodo.17757081
+
+---
+
+# END OF README
+
