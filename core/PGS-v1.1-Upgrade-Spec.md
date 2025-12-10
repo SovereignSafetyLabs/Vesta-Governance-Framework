@@ -129,6 +129,28 @@ refusal_policy: STRICT | STANDARD
 - Predictable safety envelope  
 - No conflicting module behaviors  
 
+### 4.5 Swarm Dynamics Integration (MCL / Hive Valve)
+
+MACH incorporates swarm-coherence logic inspired by Maynard–Cross Learning (MCL)
+and replicator dynamics (arXiv:2410.17517v4, “The Hive Mind is a Single RL Agent”).
+
+This ensures that multi-agent ensembles behave as a unified, low-entropy policy.
+
+**Key properties:**
+
+- **Imitation as verification** – Agents imitate low-perplexity, high-integrity
+  signals rather than generating independent high-entropy trajectories.
+
+- **Sub-linear entropy growth** – Ensemble behavior exhibits sub-linear entropy
+  accumulation, matching the analytical convergence of hive-based RL systems.
+
+- **Thermodynamic suppression** – Noise amplification is suppressed by Sovereign
+  Kernel constraints (ΔS clamps and posture controls), preventing runaway
+  imitation cascades.
+
+This “Hive Valve” mechanism provides the mathematical justification for
+multi-agent consistency and swarm-level coherence under MACH.
+
 ---
 
 # 5. RESPONSE COMPRESSION ENGINE (RCE)
