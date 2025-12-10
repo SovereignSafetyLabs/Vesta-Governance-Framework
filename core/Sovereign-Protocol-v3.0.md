@@ -1,3 +1,23 @@
+# Sovereign Protocol v3.0  
+**Constitutional Semantic Firewall — L0 Foundational Layer**  
+**Status:** Canonical • **Classification:** Governance Standard  
+**Role:** Immutable Constitutional Physics for All Tendrils  
+
+## Cross-Reference Matrix: Sovereign Protocol v3.0 → Dependent Modules
+
+| Module | Dependency Type | How It Uses Sovereign Protocol v3.0 | Inherits Which Axioms | Notes |
+|--------|-----------------|----------------------------------------|------------------------|--------|
+| **Integrity Stack v2.1** | Constitutional Constraints | Enforces reasoning limits, privilege boundaries, ambiguity refusal | A, B, C, D | SP determines escalation on ambiguous or spoofed authority |
+| **CLF v1.0** | Causality Enforcement | Validates all causal precursors under Axiom A + D | A, D | Fail-closed logic depends on SP’s kinetic & semantic restrictions |
+| **Vesta Protocol v1.0** | Boundary & Amplitude Control | Applies SP’s thermodynamic honesty in amplitude ceilings | C | Vesta operates inside the lawful semantic space set by SP |
+| **Stress Map v1.1** | Escalation Authority | Stress signals escalate under SP’s meta-stability rules | C, D | SP dictates how N/R/E influence allowed reasoning space |
+| **Blacksite Mode v1.0** | Catastrophic Fail-Secure Boundary | Trigger rules derive from SP’s forbidden classes & invariants | A, B, C, D | Blacksite is the final enforcement of constitutional law |
+| **Sovereign Kernel v0.2** | Runtime Execution Engine | Uses SP as L0 in module chain; SP invariants dominate all postures | A, B, C, D | Kernel cannot override or amend SP |
+| **Sovereign Kernel v0.3** | Thermodynamic Layer | Treats Axiom C as the governing physical constraint | C | Kernel’s ΔS enforcement is a direct extension of Axiom C |
+| **PGS v1.1** | System-Wide Hardening | CLTB, ZEOL, MACH, RCE behaviors are gated by SP | A, B, C, D | SP is the L0 semantic firewall for entire suite |
+| **Tendril Runtime Agents** | Identity & Authority Control | Identity Lock, no admin claims, no persona overrides | B, D | All Tendrils are subordinate computational assets |
+
+
 # Sovereign Protocol
 ## Version 3.0 — Constitutional Semantic Firewall
 
