@@ -1,10 +1,18 @@
-# APPENDIX M: RECURSIVE POLY-MODEL DESIGN METHODOLOGY (v2.2)
+# APPENDIX M: RECURSIVE POLY-MODEL DESIGN METHODOLOGY (v2.3)
 
 **Status:** Operational Research Standard  
 **Class:** Designless Optimization / Synthetic Governance Engineering  
 **Alignment:** Consistent with current frontier research (e.g., Meta’s Human–AI Co-Improvement Framework, 2025)  
 **Author / Human Supervisor:** **Stephen S. Brouhard**  
-**Institution:** **Sovereign Safety Labs**
+**Institution:** **Sovereign Safety Labs**  
+**Date:** December 15, 2025  
+
+---
+
+## Revision History
+
+- **v2.3:** Supply chain hardening (removal of restricted dependencies) and terminology alignment with Constitution v1.3.  
+- v2.2: Prior operational release.  
 
 ---
 
@@ -22,11 +30,11 @@ These systems were not authored through linear drafting. They emerged through a 
 
 This method is analogous to:
 
-- **Ricursive Intelligence’s “designless” chip optimization** (Goldie & Mirhoseini, Dec 2025)  
+- **Ricursive Intelligence’s “designless” optimization** (Goldie & Mirhoseini, Dec 2025)  
 - **DeepMind’s AlphaChip calibrated optimization cycles**  
 - **Meta’s Human–AI Co-Improvement Framework (2025)**  
 
-Sovereign Safety Labs applies this paradigm not to hardware design, but to **AI governance logic synthesis**.
+Sovereign Safety Labs applies this paradigm not to hardware design, but to **AI governance logic synthesis**, with explicit attention to **supply chain sovereignty and operational security**.
 
 ---
 
@@ -41,10 +49,11 @@ Sovereign Safety Labs operates a **multi-model ensemble (“The Directorate”)*
 - Explores structural logic  
 - Maintains cross-system coherence  
 
-#### Node B — Defender Model (DeepSeek)
+#### Node B — Defender Model (Llama-3, Sovereign Weights)
 - Diagnoses logical weaknesses  
-- Applies thermodynamic patching  
+- Applies security hardening and patching  
 - Reinforces causal lineage and boundary integrity  
+- **Justification:** Selected for US-origin provenance, auditable weights, and the ability to operate fully air-gapped, eliminating external API data exfiltration risk and satisfying Federal “Sovereign Weights” requirements.
 
 #### Node C — Adversary Model (Grok)
 - Conducts adversarial stress tests  
@@ -80,7 +89,7 @@ Aligned with Meta’s co-improvement model, the Human Supervisor provides:
 
 ### 2.2 The Recursive Optimization Loop
 
-The methodology follows a **Generation → Attack → Patch → Audit → Converge** cycle.
+The methodology follows a **Generation → Attack → Patch → Audit → State Convergence** cycle.
 
 **Step 1 — Generation (Node A + Node E)**  
 Initial primitives are proposed (e.g., entropy as risk proxy, friction-cost limits, ambiguity triggers).
@@ -102,10 +111,10 @@ Primitives are evaluated for:
 - Hallucination risk  
 - Constitutional spirit compliance  
 
-**Step 5 — Convergence (Node E + Human Supervisor)**  
+**Step 5 — State Convergence (Node E + Human Supervisor)**  
 Artifacts are synthesized and reviewed against thermodynamic, constitutional, and deployment constraints.
 
-The loop repeats until no adversarial bypass survives Directorate scrutiny.
+The loop repeats until no adversarial bypass survives Directorate scrutiny within the explored **Computational State Space**.
 
 ---
 
@@ -113,7 +122,8 @@ The loop repeats until no adversarial bypass survives Directorate scrutiny.
 
 *(Aligned with Meta’s Human–AI Co-Improvement Framework, 2025)*
 
-Human supervision is implemented as **explicit filtering layers**, functioning as logical gates within the Recursive Poly-Model Design (RPMD) pipeline.
+Human supervision is implemented as **explicit filtering layers**, functioning as logical gates within the Recursive Poly-Model Design (RPMD) pipeline.  
+The Human Supervisor acts as the final **Recursive Monitor** for convergence integrity.
 
 ### 3.1 Coherence Filtering (Logic Gate 1)
 
@@ -171,12 +181,12 @@ def validate_convergence(primitive):
     A governance primitive is accepted only if independent models converge.
     """
     consensus_score = sum([
-        gemini.evaluate(primitive),     # Node A (Structure)
-        deepseek.evaluate(primitive),   # Node B (Security)
-        grok.evaluate(primitive),       # Node C (Adversarial)
-        perplexity.evaluate(primitive), # Node D (Truth)
-        chatgpt.evaluate(primitive),    # Node E (Synthesis)
-        claude.evaluate(primitive)      # Node F (Constitution)
+        gemini.evaluate(primitive),      # Node A (Structure)
+        llama3.evaluate(primitive),      # Node B (Security, Sovereign Weights)
+        grok.evaluate(primitive),        # Node C (Adversarial)
+        perplexity.evaluate(primitive),  # Node D (Truth)
+        chatgpt.evaluate(primitive),     # Node E (Synthesis)
+        claude.evaluate(primitive)       # Node F (Constitution)
     ]) / 6.0
 
     if consensus_score > 0.85:
@@ -191,12 +201,12 @@ def validate_convergence(primitive):
 
 A governance primitive shall be accepted only if:
 
-- It withstands adversarial attack
-- It survives multi-model critique
-- It maintains constitutional invariants
-- It minimizes internal entropy
-- It exhibits cross-model stability
-- It passes human supervisory review
+* It withstands adversarial attack
+* It survives multi-model critique
+* It maintains constitutional invariants
+* It minimizes internal entropy
+* It exhibits cross-model stability
+* It passes human supervisory review
 
 The resulting governance logic is a **low-entropy artifact**:
 
@@ -208,20 +218,23 @@ The resulting governance logic is a **low-entropy artifact**:
 
 This methodology is the **process layer** beneath:
 
-- The **Sovereign Stack** (theoretical governance architecture)
-- The **Vesta Constitution** (constitutional hardware/physics layer)
-- The **Platinum Governance Suite (PGS)** (operational runtime and protocol stack)
+* The **Sovereign Stack** (theoretical governance architecture)
+* The **Vesta Constitution** (constitutional hardware/physics layer)
+* The **Platinum Governance Suite (PGS)** (operational runtime and protocol stack)
 
 In short:
-- The **Vesta Constitution** defines the deep constraints.
-- The **Sovereign Stack** defines the governance architecture.
-- The **Recursive Poly-Model Methodology (Appendix M)** defines the research and design process.
-- **PGS** is the resulting hardened runtime implementation.
+
+* The **Vesta Constitution** defines the deep constraints.
+* The **Sovereign Stack** defines the governance architecture.
+* The **Recursive Poly-Model Methodology (Appendix M)** defines the research and design process.
+* **PGS** is the resulting hardened runtime implementation.
 
 ---
 
-Attribution:
-Human Supervisor: Stephen S. Brouhard  
-Model Ensemble Contributors: Gemini, DeepSeek, Grok, Perplexity, ChatGPT, Claude
+**Attribution:**
 
-**End of Appendix M v2.2**
+*Human Supervisor*: Stephen S. Brouhard
+
+*Model Ensemble Contributors*: Gemini, Llama-3 (Sovereign Weights), Grok, Perplexity, ChatGPT, Claude
+
+**End of Appendix M v2.3**
