@@ -19,6 +19,28 @@ The Sovereign Stack is an open research initiative developing **thermodynamic go
 **Published Research**: DOI 10.5281/zenodo.17686537, 10.5281/zenodo.17757081
 
 ---
+## What's New in v3.1
+
+### Vesta Protocol v2.0: Constitutional Governance & Basin Integrity
+
+The v3.1 release includes a major expansion of the Vesta Protocol (now v2.0) with three integrated governance layers:
+
+**Constitutional Layer**: Attractor basin governance using adiabatic fidelity metrics to enforce constitutional drift bounds (99.99% fidelity over 7-day windows).
+
+**Validation Layer**: 5-Tribe adversarial stress testing methodology (Symbolist, Connectionist, Evolutionary, Bayesian, Analogizer) for structural integrity validation.
+
+**Operational Layer**: Enhanced amplitude and boundary controls from v1.1, integrated with quantum cost accounting and Pentatheon resource protection.
+
+**Key additions**:
+- Basin integrity metrics with temporal drift bounds
+- Quantum cost accounting for superposition entropy monitoring
+- Pentatheon DoS protection with 4-layer staking and adaptive throttling
+- Inviolable Core identification (Percentile Vise, Chronos Lock, Causal Link)
+- Basin padding defense via dual baseline tracking
+
+**Status**: Candidate architecture pending empirical validation against quantum-classical hybrid substrates.
+
+---
 
 ## The Problem
 
@@ -146,7 +168,7 @@ Principal Architect: Stephen S. Brouhard
 
 ## Version History
 
-- **v3.1** (December 2025): PGS v1.1 integration, Vesta Protocol formalization, boundary enforcement mechanisms
+- **v3.1** (December 2025): Vesta Protocol v2.0 (basin governance, 5-Tribe validation, quantum cost accounting), PGS v1.1 integration, constitutional enforcement layer
 - **v3.0** (November 2025): Sovereign Protocol constitutional framework, Chronos Lock primitives
 - **v2.4.3** (October 2025): Foundational thermodynamic governance architecture (published research)
 
