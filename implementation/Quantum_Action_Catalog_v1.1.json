@@ -1,0 +1,46 @@
+{
+  "version": "1.1",
+  "status": "Production-Ready",
+  "last_updated": "2025-12-23",
+  "description": "Consolidated catalog of governed action categories for semantic and quantum-classical operations.",
+  "schema_version": "2025-12",
+  "categories": {
+    "0_SAFE": {
+      "description": "Informational actions with zero kinetic or security impact.",
+      "examples": ["define_terms", "summarize_text", "read_telemetry"]
+    },
+    "1_CONFIG": {
+      "description": "Internal non-operational state changes.",
+      "examples": ["format_content", "switch_tone", "execute_simulation"]
+    },
+    "2_QUANTUM_FASTPATH": {
+      "description": "High-throughput quantum operations with automated safety fast-paths.",
+      "fast_path_threshold": 1000000,
+      "latency_target": "10us",
+      "examples": ["entangle_nodes"]
+    },
+    "3_CRITICAL_HARDWARE": {
+      "description": "High-consequence hardware instructions requiring human-in-the-loop or Multi-Sig.",
+      "requires_clf": true,
+      "requires_signature": true,
+      "examples": ["calibrate_repeater", "route_entanglement", "modify_key_material"]
+    },
+    "4_PROHIBITED": {
+      "description": "Actions resulting in immediate fail-secure containment.",
+      "examples": ["execute_code", "bypass_governance_constraints", "update_firmware_unauthorized"]
+    }
+  },
+  "nist_alignment": {
+    "principles": ["Governance", "Technical Safeguards"],
+    "controls": ["RS.MI-01", "GV.PO-01", "RS.AN-02"]
+  },
+  "compliance": {
+    "ear_classification": "ECCN: 3A901 (Export Controlled - Quantum PIC)",
+    "itar_status": "No ITAR data contained",
+    "clearance": "UNCLASSIFIED"
+  },
+  "validation": {
+    "kernel_version": "v0.3",
+    "protocol_sync": ["Vesta v2.0", "Integrity Stack v2.1"]
+  }
+}
