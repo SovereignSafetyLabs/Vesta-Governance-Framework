@@ -1,4 +1,4 @@
-# Sovereign Stack
+# Vesta Governance Framework
 
 **An Exploratory Research Framework for AI Governance and Adversarial Evaluation**
 
@@ -15,7 +15,7 @@
 
 ## What This Is
 
-The **Sovereign Stack** is an open research initiative exploring how AI governance
+The **Vesta Governance Framework** is an open research initiative exploring how AI governance
 and evaluation approaches behave under adversarial, long-horizon, and structurally
 stressful conditions.
 
@@ -31,7 +31,7 @@ This repository should be read as **research documentation**, not as an operatio
 
 ## What This Is Not
 
-The Sovereign Stack is **not**:
+The Vesta Governance Framework is **not**:
 - a deployed AI safety system
 - a certification or compliance framework
 - a production enforcement layer
