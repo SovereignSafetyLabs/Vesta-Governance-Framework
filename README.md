@@ -1,4 +1,4 @@
-# Vesta Governance Framework
+# Vesta Governance Framework v3.2
 *(Formerly "Sovereign Stack")*
 
 **An Exploratory Research Framework for AI Governance and Adversarial Evaluation**
@@ -16,12 +16,10 @@
 
 ## What This Is
 
-The **Vesta Governance Framework** is an open research initiative exploring how AI governance
-and evaluation approaches behave under adversarial, long-horizon, and structurally
-stressful conditions.
+The **Vesta Governance Framework** is an open research initiative exploring how AI governance and alignment approaches behave under adversarial, long-horizon, and structurally stressful conditions.
 
 The work focuses on:
-- documenting governance and alignment failure modes
+- documenting governance and alignment failure modes (e.g., *Representation Drift*)
 - analyzing constraint breakdown under adversarial pressure
 - proposing *conceptual* governance architectures for study and discussion
 - developing evaluation and stress-testing methodologies
@@ -33,9 +31,33 @@ To assist researchers and auditors, the contents of this repository are strictly
 
 | Component | Status | TRL | Description |
 | :--- | :--- | :--- | :--- |
-| **Governance Protocols** | **Reference Implementation** | **TRL 6** | Python 3.10+ schemas, JSON action catalogs, and logic gates **located under `/implementation/`**. Provided for analytical inspection only; not for production use. |
-| **Evaluation Methodology** | **Defined Process** | **TRL 4** | Analytical frameworks for stress-testing and failure-mode analysis **located under `/docs/technical/`**. |
+| **Governance Protocols** | **Reference Logic** | **TRL 5** | Python 3.10+ schemas, JSON action catalogs, and logic gates **located under [`/reference-implementation/`](reference-implementation/)**. Provided for analytical inspection only. |
+| **Evaluation Methodology** | **Defined Process** | **TRL 4** | Analytical frameworks for stress-testing and failure-mode analysis **located under [`/docs/technical/`](docs/technical/README.md)**. |
 | **Hardware Enforcement** | **Conceptual / Roadmap** | **TRL 2** | Theoretical architectures (e.g., Entropy Vaults, Hardware Locks). **No Verilog/GDSII present.** |
+
+---
+
+## What's New in v3.2 (January 2026)
+
+This release focuses on **Adversarial Hardening** and **constraint-based (thermodynamic-inspired) governance analysis**.
+
+* **TokenBucket Rate Limiter (ECO-2026-01-15):** An updated *reference design* for the Quantum-Classical Control Plane, addressing “Flash Flood” DoS patterns in analytical and simulation contexts.
+* **Representation Drift Countermeasures:** A new threat model addressing *Nature (2026)* findings on fine-tuning-induced misalignment.
+* **The Latent Paradigm:** A new doctrinal paper defining models as high-dimensional manifolds rather than “agents.”
+* **Federal Crosswalk v1.0.3:** Updated mapping to NDAA FY2026 and EO 14110 requirements.
+
+---
+
+## Version Matrix
+
+Due to independent component lifecycles, version numbers may vary by artifact:
+
+| Component | Version | Rationale |
+| :--- | :--- | :--- |
+| **Governance Framework** | **v3.2** | The overarching architectural definition. |
+| **Integrity Stack** | **v2.2** | The specific runtime logic module (Reference Implementation). |
+| **Federal Crosswalk** | **v1.0.3** | The compliance mapping document. |
+| **Action Catalog** | **v1.1** | The JSON schema for allowable actions. |
 
 ---
 
@@ -64,17 +86,8 @@ modes under:
 - incentive misalignment
 
 This research investigates whether **systems-level constraints** (such as resource
-costs, entropy measures, and structural invariants) can serve as *analytical lenses*
+costs, entropy proxies, and structural invariants) can serve as *analytical lenses*
 for understanding governance robustness — not as ready-to-deploy solutions.
-
----
-
-## Who This Is For
-
-- **Auditors & Red Teams:** Reviewing the `/implementation/` directory for logic gaps.
-- **Researchers:** Studying AI governance, alignment, or evaluation.
-- **Engineers:** Interested in failure-mode analysis and adversarial testing.
-- **Institutions:** Seeking conceptual understanding, not turnkey solutions.
 
 ---
 
