@@ -1,0 +1,75 @@
+name: Clarification or Defect Report
+description: Report ambiguity, inconsistency, or potential defect in a specific artifact.
+title: "[Artifact] Section X.X – Brief Description"
+labels: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is a stewarded research corpus.
+        Use this form only for clarification requests or defect reports
+        tied to a specific artifact and section.
+
+        Feature requests, architectural proposals, or speculative extensions
+        are out of scope.
+
+  - type: input
+    id: artifact
+    attributes:
+      label: Artifact Referenced
+      description: Identify the file name (e.g., ARTIFACTS.md, VESTA_CONSTITUTION_v1.5.md).
+      placeholder: e.g., VESTA_CONSTITUTION_v1.5.md
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section / Article / Line Reference
+      description: Provide the specific section, article number, or line reference.
+      placeholder: e.g., Article 2.6
+    validations:
+      required: true
+
+  - type: dropdown
+    id: artifact_type
+    attributes:
+      label: Artifact Classification
+      description: Select the maturity classification as defined in ARTIFACTS.md.
+      options:
+        - Theory & Narrative (TRL 0–1)
+        - Specifications & Architecture (TRL 2–3)
+        - Methodology & Process (TRL 4)
+        - Reference Logic (TRL 5)
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Description of Concern
+      description: Clearly describe the ambiguity, inconsistency, or defect.
+      placeholder: Provide precise explanation with citations where possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: supporting_rationale
+    attributes:
+      label: Supporting Rationale
+      description: Provide technical reasoning, references, or analysis supporting this concern.
+      placeholder: Include equations, logic, or citations if applicable.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have reviewed README.md and ARTIFACTS.md before submitting this issue.
+          required: true
+        - label: This report does not request new features or architectural expansion.
+          required: true
